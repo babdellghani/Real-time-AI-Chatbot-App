@@ -3,7 +3,7 @@ import styles from "./App.module.css";
 import Chat from "./components/Chat/Chat";
 import Loader from "./components/Loader/Loader";
 import Controls from "./components/Controls/Controls";
-import { Assistant as OpenAi } from "./assistants/OpenAi";
+import { Assistant as OpenAi } from "./assistants/openAi";
 import { Assistant as Gemini } from "./assistants/geminiAi";
 function App() {
   const [messages, setMessages] = useState([]);
