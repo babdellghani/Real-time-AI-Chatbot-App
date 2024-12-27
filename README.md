@@ -10,7 +10,7 @@ This project is a ChatBot application built with React and GeminiAi & OpenAi Api
 
 ## Live Preview
 
-Check out the live demo of the Weather App: [Weather App Demo](https://weather-app-abdelghani.vercel.app/)
+Check out the live demo of the Weather App: [ChatBot Demo](https://real-time-ai-chatbot-app.vercel.app/)
 
 ## Prerequisites
 
