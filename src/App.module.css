@@ -1,0 +1,54 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    height: 100vh;
+    padding: 16px;
+}
+
+.Header {
+    text-align: center;
+}
+
+.Logo {
+    width: 64px;
+    height: 64px;
+}
+
+.Title {
+    margin: 0;
+}
+
+.Select {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: 16px;
+    background: light-dark(#ffffff, #212121);
+}
+
+.Select label {
+    margin-right: 8px;
+}
+
+.Select select {
+    width: 100%;
+    height: 25px;
+    background: light-dark(#ffffff, #212121);
+    border: 1px solid light-dark(#212121, #ffffff);
+    border-radius: 8px;
+    padding: 0 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.ChatContainer {
+    flex-grow: 1;
+    width: 100%;
+    background: light-dark(#ffffff, #212121);
+    border-radius: 16px;
+    overflow-y: auto;
+}
